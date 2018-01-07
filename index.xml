@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tuan-Anh Bui on Tuan-Anh Bui</title>
+    <link>https://ngoacmieng.github.io/</link>
+    <description>Recent content in Tuan-Anh Bui on Tuan-Anh Bui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Generative Adversarial Auto-Encoder Network</title>
+      <link>https://ngoacmieng.github.io/publication/cvpr18-gaan/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ngoacmieng.github.io/publication/cvpr18-gaan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Một câu chuyện chán ngắt</title>
+      <link>https://ngoacmieng.github.io/post/viettel-pigeon/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://ngoacmieng.github.io/post/viettel-pigeon/</guid>
+      <description>&lt;p&gt;Khoảng năm 2015, Viện R&amp;amp;D Viettel phát động một cuộc thi nội bộ về việc sáng tạo logo và đặt tên cho một sản phẩm trọng điểm của toàn Viettel hồi đó - tên lửa hành trình của Viettel, hay vẫn được nhắc đến là dự án A1. Cũng muốn thử sức của mình, tôi đã tham gia cuộc thi. Kết quả hồi đó là sau một thời gian với hàng chục bài dự thi thì cuối cùng ban lãnh đạo của Viện không chọn ra sản phẩm nào cả. Lý do được đưa ra là các ý tưởng còn quá đơn giản, nói chung là không hợp ý sếp. Thời gian trôi qua tôi cũng quên đi cái ý tưởng nho nhỏ đó của mình cho đến khi một ngày cuối năm 2017, tôi thấy một bài viết trên báo về một thiết bị do Viettel sản xuất có tên là &lt;a href=&#34;(http://vtx.vn/content/vt-pigeon-0)&#34; target=&#34;_blank&#34;&gt;VT-Pigeon&lt;/a&gt;, đúng cái tên mà hồi xưa tôi đặt. Thực ra có thể là không liên quan gì đến bài dự thi của tôi, và mục đích của bài viết này tôi chỉ muốn nhắc lại về cái ý tưởng nhỏ của mình, nhưng cũng không giấu được niềm vui về việc ít nhất cũng có người nghĩ đó là một cái tên hay giống như tôi ngày xưa đã nghĩ đến.&lt;/p&gt;
+
+&lt;p&gt;Tại sao tôi lại nghĩ đến hình ảnh con chim bồ câu Pigeon cho một thiết bị quân sự?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Triết lý quân sự của Việt Nam từ thời xưa đến bây giờ đều là luôn mong muốn có hoà bình, là bảo vệ tổ quốc chứ không chủ động gây chiến. Đối với việc Viettel sản xuất vũ khí và thiết bị quân sự cũng như vậy. Triết lý, mục đích của ban lãnh đạo Tập đoàn đó là muốn có một thiết bị phòng thủ giúp Việt Nam có thể tự tin ứng phó trước kẻ thù chứ không phải một thiết bị tấn công gây chiến. Do đó tôi nghĩ sẽ phù hợp hơn là một cái tên mang triết lý hoà bình hơn là một cái tên hung hãn.&lt;/li&gt;
+&lt;li&gt;Là một thiết bị bay nên tôi nghĩ đến một loài chim, hoặc một vị thần nào đó biết bay trong lịch sử Việt Nam. Một số cái tên như Thánh gióng, Phù đổng, hay loài chim như chim nhạn, chim lạc, chim câu được tôi nghĩ đến. Và cuối cùng chim bồ câu - Pigeon là cái tên tôi chọn vì nó cũng phổ biến trong văn hoá Phương Tây với ý nghĩa là loài chim của hoà bình.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tại sao tôi chọn logo như thế?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Đầu tiên là nó mang hình dáng của con chim đang cất cánh bay&lt;/li&gt;
+&lt;li&gt;Thứ hai là nó mang hình ảnh của ngọn lửa đang bùng cháy, cũng&lt;/li&gt;
+&lt;li&gt;Thứ ba là hình tượng của Viettel ở trong logo đó với thân chim là chữ V và đôi cánh là chữ T cách điệu
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Do không có chuyên môn về đồ hoạ mỹ thuật, tôi chỉ đơn giản là cắt ghép và chỉnh sửa một chút bằng paint nên logo còn rất thô sơ, nhưng về cơ bản vẫn thể hiện được những ý tưởng tôi muốn diễn đạt. Hồi đó khi tôi tham dự cuộc thi tôi cũng đã rất háo hức, cũng email hỏi ban tổ chức mấy lần về việc sao chưa có kết quả. Và cũng hơi hụt hẫng khi kết quả là chẳng đỗ. Tuy nhiên đó cũng là một dấu ấn nhỏ trong quá trình làm việc ở Viettel của tôi.
+&lt;img src=&#34;https://ngoacmieng.github.io/img/Viettel/VT-Pigeon.png&#34; alt=&#34;VT&#34; style=&#34;width: 200px;&#34;/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://ngoacmieng.github.io/talk/example-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://ngoacmieng.github.io/talk/example-talk/</guid>
+      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://ngoacmieng.github.io/project/deep-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ngoacmieng.github.io/project/deep-learning/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>https://ngoacmieng.github.io/project/example-external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ngoacmieng.github.io/project/example-external-project/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
