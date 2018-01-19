@@ -2,13 +2,139 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Tuan-Anh Bui</title>
-    <link>https://ngoacmieng.github.io/post/</link>
+    <link>https://tuananhbui89.github.io/post/</link>
     <description>Recent content in Posts on Tuan-Anh Bui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Find shops and services around you</title>
+      <link>https://tuananhbui89.github.io/post/find_service/</link>
+      <pubDate>Tue, 16 Jan 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/post/find_service/</guid>
+      <description>
+
+&lt;h2 id=&#34;vấn-đề-cần-giải-quyết&#34;&gt;Vấn đề cần giải quyết&lt;/h2&gt;
+
+&lt;p&gt;Xuất phát từ một lần tôi chuyển sang nhà mới, tôi cần phải đi đánh chìa khoá cho ngôi nhà mới, nhưng do không biết về khu vực này, tôi đã mất rất nhiều thời gian, lượn vòng vòng qua các con phố để tìm cửa hàng đánh chìa khoá. Lúc về tôi đã nghĩ, tại sao lại không thể tìm thông tin về người đánh chìa khoá được trên google. Có thể là vì những người này là những hộ kinh doanh siêu nhỏ, không biết nhiều về công nghệ thông tin, và đôi khi do đặc thù công việc nên hay thay đổi địa điểm. Google hay chưa có bất kỳ trang web nào theo như tôi biết, hỗ trợ họ trong việc đưa thông tin lên mạng, cũng như hỗ trợ những người khách hàng như tôi có thể tìm kiếm thông tin về dịch vụ tuy nhỏ nhưng vô cùng thường xuyên này.&lt;/p&gt;
+
+&lt;h2 id=&#34;nội-dung-giải-pháp-ý-tưởng&#34;&gt;Nội dung giải pháp, ý tưởng&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Phần phía người khách hàng, người tìm kiếm sử dụng dịch vụ: Sử dụng thông qua ứng dụng trên điện thoại. Khi tìm kiếm một dịch vụ ở xung quanh vị trí của khách hàng, phần mềm sẽ liệt kê ra danh sách các người cung cấp dịch vụ, số điện thoại để liên lạc và một số thông tin ngắn gọn. Những thông tin giúp khách hàng dễ lựa chọn, sau đó sẽ gọi điện để thực hiện giao dịch tiếp theo.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Phần phía người bán hàng, cung cấp dịch vụ:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Đăng ký trên hệ thống thông qua website, ứng dụng, hoặc tin nhắn SMS với các nội dung cần có:&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Vị trí bán hàng, cung cấp dịch vụ, làm việc: Ví dụ ngã tư Khuất Duy Tiến, Trần Duy Hưng. Việc này có thể được thay thế bằng cách sử dụng GPS hoặc định vị bằng công nghệ BTS Localization của nhà mạng.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Thời gian hoạt động, cung cấp dịch vụ ví dụ từ thứ 2 đến thứ 7, từ 8h sáng đến 8h tối&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Dịch vụ cung cấp là gì: Ví dụ đánh chìa khoá, bán hoa quả, bán đồ thủ công … Có thể cung cấp thêm 1 số từ khoá liên quan&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Số điện thoại liên hệ&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;giá-trị-có-thể-mang-lại&#34;&gt;Giá trị có thể mang lại&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Những hộ kinh doanh cá thể nhỏ có thể tiếp cận với nhiều khách hàng hơn, giới thiệu sản phẩm mình đến nhiều người hơn&lt;/li&gt;
+&lt;li&gt;Những người khách hàng có thể dễ dàng tìm được các dịch vụ hơn&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Những người cung cấp dịch vụ có thể thu phí quản lý, hoặc phần trăm dựa trên lượng giao dịch thực hiện được (cách này sẽ khó thực hiện vì không quản lý được giao dịch có thành công hay không)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;phân-khúc-định-lượng-khách-hàng&#34;&gt;Phân khúc, định lượng khách hàng&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bên cung cấp dịch vụ: Những hộ kinh doanh nhỏ lẻ như sửa khoá, sửa chữa điện thoại, vá xe etc.&lt;/li&gt;
+&lt;li&gt;Bên sử dụng dịch vụ: Hầu hết mọi người, đặc biệt những người mới chuyển tới thành phố, khách du lịch, chưa quen nhiều địa điểm, dịch vụ ở khu vực đó.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;khó-khăn-có-thể-gặp-phải&#34;&gt;Khó khăn có thể gặp phải&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nhu cầu thực sự không nhiều như giả định, cả phía người bán hàng, lẫn người khách hàng. Văn hoá ở Việt Nam vẫn là khi cần sử dụng một dịch vụ thì tham khảo ý kiến của người quen&lt;/li&gt;
+&lt;li&gt;Khó khăn về việc thay đổi thông tin, cung cấp thông tin không chính xác của người bán hàng, bán dịch vụ. Nguyên nhân có thể là do nhu cầu phải thay đổi địa điểm, hoặc cạnh tranh khách hàng dẫn đến cung cấp một số thông tin không chính xác như về giá, hay địa điểm.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Your Store</title>
+      <link>https://tuananhbui89.github.io/post/your_store/</link>
+      <pubDate>Tue, 16 Jan 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/post/your_store/</guid>
+      <description>
+
+&lt;h2 id=&#34;vấn-đề-cần-giải-quyết&#34;&gt;Vấn đề cần giải quyết&lt;/h2&gt;
+
+&lt;p&gt;Do tôi ở chung cư nên diện tích và không gian rất là hạn chế. Trong một lần dọn nhà, tôi nhận thấy có một số món đồ rõ ràng là không thể bán đi vì thể nào cũng sẽ cần dùng trong tương lai, tuy nhiên khi muốn dữ lại thì cũng rất khó khăn vì không có không gian để chứa đồ. Thế là tôi nghĩ giá như có một nơi có thể giúp mình cất giữ những món đồ này với một giá rẻ, và sau này khi mình cần dùng lại thì chỉ cần một thao tác đơn giản trên phần mềm là có thể lấy lại được. Và thế là ý tưởng &amp;ldquo;Your Store&amp;rdquo; ra đời&lt;/p&gt;
+
+&lt;h2 id=&#34;nội-dung-giải-pháp-ý-tưởng&#34;&gt;Nội dung giải pháp, ý tưởng&lt;/h2&gt;
+
+&lt;p&gt;Nội dung ý tưởng là xây dựng một hệ thống các cơ sở kho bãi theo kiểu mới, được quản lý bằng phần mềm. Khi khách hàng có nhu cầu gửi hàng hoá chỉ cần đăng ký thành viên, sau đó đặt lệnh gửi đồ, hệ thống sẽ tính toán chi phí và nếu khách hàng đồng ý giao dịch thì sẽ có nhân viên đến giúp đỡ thu dọn và chuyển đồ đạc về kho. Phần mềm còn giúp khách hàng quản lý được danh sách các đồ đang gửi trong kho, tình trạng cũng như khả năng quan sát trực tiếp bằng camera. Khi khách hàng có nhu cầu thu hồi lại hàng hoá, chỉ cần thao tác trên phần mềm, trong một thời gian ngắn sẽ có nhân viên đến giao lại đồ cho khách. Khách hàng còn có thể đặt chế độ cho thuê với những đồ kí gửi của mình, trong trường hợp đó hệ thống sẽ tự động sắp xếp và đứng ra trung gian cho thuê và quản lý đồ kí gửi của khách hàng.&lt;/p&gt;
+
+&lt;h2 id=&#34;giá-trị-có-thể-mang-lại&#34;&gt;Giá trị có thể mang lại&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tiết kiệm không gian sinh hoạt cho khách hàng&lt;/li&gt;
+&lt;li&gt;Giảm thời gian, công sức quản lý, thu dọn đồ đạc, hàng hoá không sử dụng&lt;/li&gt;
+&lt;li&gt;Mang lại một phần nhỏ doanh thu từ việc cho thuê nếu có&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;phân-khúc-định-lượng-khách-hàng&#34;&gt;Phân khúc, định lượng khách hàng&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Những hộ gia đình&lt;/li&gt;
+&lt;li&gt;Những hộ kinh doanh nhỏ, có nhiều hàng hoá nhưng không có kho bãi&lt;/li&gt;
+&lt;li&gt;Những công ty nhỏ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;khó-khăn-có-thể-gặp-phải&#34;&gt;Khó khăn có thể gặp phải&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Chi phí bảo quản với số lượng nhỏ có thể đáng kể so với giá thành của sản phẩm, khiến cho dịch vụ mất đi tính hấp dẫn. Giải quyết bằng cách tối ưu tối đa chi phí hoạt động và quản lý, kho bãi xây dựng phân tán, ở những khu thưa dân cư có giá thành thuê thấp (hoặc có thể phát triển như uber, grab, những hộ gia đình có mặt bằng không sử dụng thì xây dựng kho tạm để kinh doanh cho thuê)&lt;/li&gt;
+&lt;li&gt;Tốc độ kí gửi hoặc hoàn trả hàng hoá chậm.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pigeon</title>
+      <link>https://tuananhbui89.github.io/post/viettel-pigeon/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/post/viettel-pigeon/</guid>
+      <description>&lt;p&gt;Khoảng năm 2015, Viện R&amp;amp;D Viettel phát động một cuộc thi nội bộ về việc sáng tạo logo và đặt tên cho một sản phẩm trọng điểm của Viettel hồi đó - tên lửa hành trình của Viettel, hay vẫn được nhắc đến là &amp;ldquo;dự án A1&amp;rdquo;. Cũng muốn thử sức của mình, tôi đã tham gia cuộc thi. Kết quả hồi đó là sau một thời gian với hàng chục bài dự thi thì cuối cùng ban lãnh đạo của Viện không chọn ra sản phẩm nào cả. Lý do được đưa ra là các ý tưởng còn quá đơn giản, nói chung là không hợp ý sếp. Thời gian trôi qua tôi cũng quên đi cái ý tưởng nho nhỏ đó của mình cho đến khi một ngày cuối năm 2017, tôi thấy một bài viết trên báo về một thiết bị do Viettel sản xuất có tên là &lt;a href=&#34;(http://vtx.vn/content/vt-pigeon-0)&#34; target=&#34;_blank&#34;&gt;VT-Pigeon&lt;/a&gt;, đúng cái tên mà hồi xưa tôi đặt. Thực ra có thể là không liên quan gì đến bài dự thi của tôi, và mục đích của bài viết này tôi chỉ muốn nhắc lại về cái ý tưởng nhỏ của mình, nhưng cũng không giấu được niềm vui về việc ít nhất cũng có người nghĩ đó là một cái tên hay giống như ngày xưa tôi đã nghĩ đến.&lt;/p&gt;
+
+&lt;p&gt;Tại sao lại dùng hình ảnh con chim bồ câu Pigeon cho một thiết bị quân sự?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Triết lý quân sự của Việt Nam từ thời xưa đến bây giờ đều là luôn mong muốn có hoà bình, là bảo vệ tổ quốc chứ không chủ động gây chiến. Đối với việc Viettel sản xuất vũ khí và thiết bị quân sự cũng như vậy. Triết lý, mục đích của ban lãnh đạo Tập đoàn đó là muốn có một thiết bị phòng thủ giúp Việt Nam có thể tự tin ứng phó trước kẻ thù chứ không phải một thiết bị tấn công gây chiến. Do đó tôi nghĩ sẽ phù hợp hơn là một cái tên mang triết lý hoà bình hơn là một cái tên hung hãn.&lt;/li&gt;
+&lt;li&gt;Là một thiết bị bay nên tôi nghĩ đến một loài chim, hoặc một vị thần nào đó biết bay trong lịch sử Việt Nam. Một số cái tên như Thánh gióng, Phù đổng, hay loài chim như chim nhạn, chim lạc, chim câu được tôi nghĩ đến. Và cuối cùng chim bồ câu - Pigeon là cái tên tôi chọn vì nó cũng phổ biến trong văn hoá Phương Tây với ý nghĩa là loài chim của hoà bình.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tại sao tôi chọn logo như thế?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Đầu tiên là nó mang hình dáng của con chim đang cất cánh bay&lt;/li&gt;
+&lt;li&gt;Thứ hai là nó mang hình ảnh của ngọn lửa đang bùng cháy, cũng&lt;/li&gt;
+&lt;li&gt;Thứ ba là hình tượng của Viettel ở trong logo đó với thân chim là chữ V và đôi cánh là chữ T cách điệu
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Do không có chuyên môn về đồ hoạ mỹ thuật, tôi chỉ đơn giản là cắt ghép và chỉnh sửa một chút bằng paint nên logo còn rất thô sơ, nhưng về cơ bản vẫn thể hiện được những ý tưởng tôi muốn diễn đạt. Hồi đó khi tôi tham dự cuộc thi tôi cũng đã rất háo hức, cũng email hỏi ban tổ chức mấy lần về việc sao chưa có kết quả. Và cũng hơi hụt hẫng khi kết quả là chẳng đỗ. Tuy nhiên đó cũng là một dấu ấn nhỏ trong quá trình làm việc ở Viettel của tôi.
+&lt;img src=&#34;https://tuananhbui89.github.io/img/Viettel/VT-Pigeon.png&#34; alt=&#34;VT&#34; style=&#34;width: 200px;&#34;/&gt;&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tuan-Anh Bui on Tuan-Anh Bui</title>
-    <link>https://ngoacmieng.github.io/</link>
+    <link>https://tuananhbui89.github.io/</link>
     <description>Recent content in Tuan-Anh Bui on Tuan-Anh Bui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,40 +11,499 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Find shops and services around you</title>
+      <link>https://tuananhbui89.github.io/post/find_service/</link>
+      <pubDate>Tue, 16 Jan 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/post/find_service/</guid>
+      <description>
+
+&lt;h2 id=&#34;vấn-đề-cần-giải-quyết&#34;&gt;Vấn đề cần giải quyết&lt;/h2&gt;
+
+&lt;p&gt;Xuất phát từ một lần tôi chuyển sang nhà mới, tôi cần phải đi đánh chìa khoá cho ngôi nhà mới, nhưng do không biết về khu vực này, tôi đã mất rất nhiều thời gian, lượn vòng vòng qua các con phố để tìm cửa hàng đánh chìa khoá. Lúc về tôi đã nghĩ, tại sao lại không thể tìm thông tin về người đánh chìa khoá được trên google. Có thể là vì những người này là những hộ kinh doanh siêu nhỏ, không biết nhiều về công nghệ thông tin, và đôi khi do đặc thù công việc nên hay thay đổi địa điểm. Google hay chưa có bất kỳ trang web nào theo như tôi biết, hỗ trợ họ trong việc đưa thông tin lên mạng, cũng như hỗ trợ những người khách hàng như tôi có thể tìm kiếm thông tin về dịch vụ tuy nhỏ nhưng vô cùng thường xuyên này.&lt;/p&gt;
+
+&lt;h2 id=&#34;nội-dung-giải-pháp-ý-tưởng&#34;&gt;Nội dung giải pháp, ý tưởng&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Phần phía người khách hàng, người tìm kiếm sử dụng dịch vụ: Sử dụng thông qua ứng dụng trên điện thoại. Khi tìm kiếm một dịch vụ ở xung quanh vị trí của khách hàng, phần mềm sẽ liệt kê ra danh sách các người cung cấp dịch vụ, số điện thoại để liên lạc và một số thông tin ngắn gọn. Những thông tin giúp khách hàng dễ lựa chọn, sau đó sẽ gọi điện để thực hiện giao dịch tiếp theo.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Phần phía người bán hàng, cung cấp dịch vụ:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Đăng ký trên hệ thống thông qua website, ứng dụng, hoặc tin nhắn SMS với các nội dung cần có:&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Vị trí bán hàng, cung cấp dịch vụ, làm việc: Ví dụ ngã tư Khuất Duy Tiến, Trần Duy Hưng. Việc này có thể được thay thế bằng cách sử dụng GPS hoặc định vị bằng công nghệ BTS Localization của nhà mạng.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Thời gian hoạt động, cung cấp dịch vụ ví dụ từ thứ 2 đến thứ 7, từ 8h sáng đến 8h tối&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Dịch vụ cung cấp là gì: Ví dụ đánh chìa khoá, bán hoa quả, bán đồ thủ công … Có thể cung cấp thêm 1 số từ khoá liên quan&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Số điện thoại liên hệ&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;giá-trị-có-thể-mang-lại&#34;&gt;Giá trị có thể mang lại&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Những hộ kinh doanh cá thể nhỏ có thể tiếp cận với nhiều khách hàng hơn, giới thiệu sản phẩm mình đến nhiều người hơn&lt;/li&gt;
+&lt;li&gt;Những người khách hàng có thể dễ dàng tìm được các dịch vụ hơn&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Những người cung cấp dịch vụ có thể thu phí quản lý, hoặc phần trăm dựa trên lượng giao dịch thực hiện được (cách này sẽ khó thực hiện vì không quản lý được giao dịch có thành công hay không)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;phân-khúc-định-lượng-khách-hàng&#34;&gt;Phân khúc, định lượng khách hàng&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Bên cung cấp dịch vụ: Những hộ kinh doanh nhỏ lẻ như sửa khoá, sửa chữa điện thoại, vá xe etc.&lt;/li&gt;
+&lt;li&gt;Bên sử dụng dịch vụ: Hầu hết mọi người, đặc biệt những người mới chuyển tới thành phố, khách du lịch, chưa quen nhiều địa điểm, dịch vụ ở khu vực đó.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;khó-khăn-có-thể-gặp-phải&#34;&gt;Khó khăn có thể gặp phải&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nhu cầu thực sự không nhiều như giả định, cả phía người bán hàng, lẫn người khách hàng. Văn hoá ở Việt Nam vẫn là khi cần sử dụng một dịch vụ thì tham khảo ý kiến của người quen&lt;/li&gt;
+&lt;li&gt;Khó khăn về việc thay đổi thông tin, cung cấp thông tin không chính xác của người bán hàng, bán dịch vụ. Nguyên nhân có thể là do nhu cầu phải thay đổi địa điểm, hoặc cạnh tranh khách hàng dẫn đến cung cấp một số thông tin không chính xác như về giá, hay địa điểm.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Your Store</title>
+      <link>https://tuananhbui89.github.io/post/your_store/</link>
+      <pubDate>Tue, 16 Jan 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/post/your_store/</guid>
+      <description>
+
+&lt;h2 id=&#34;vấn-đề-cần-giải-quyết&#34;&gt;Vấn đề cần giải quyết&lt;/h2&gt;
+
+&lt;p&gt;Do tôi ở chung cư nên diện tích và không gian rất là hạn chế. Trong một lần dọn nhà, tôi nhận thấy có một số món đồ rõ ràng là không thể bán đi vì thể nào cũng sẽ cần dùng trong tương lai, tuy nhiên khi muốn dữ lại thì cũng rất khó khăn vì không có không gian để chứa đồ. Thế là tôi nghĩ giá như có một nơi có thể giúp mình cất giữ những món đồ này với một giá rẻ, và sau này khi mình cần dùng lại thì chỉ cần một thao tác đơn giản trên phần mềm là có thể lấy lại được. Và thế là ý tưởng &amp;ldquo;Your Store&amp;rdquo; ra đời&lt;/p&gt;
+
+&lt;h2 id=&#34;nội-dung-giải-pháp-ý-tưởng&#34;&gt;Nội dung giải pháp, ý tưởng&lt;/h2&gt;
+
+&lt;p&gt;Nội dung ý tưởng là xây dựng một hệ thống các cơ sở kho bãi theo kiểu mới, được quản lý bằng phần mềm. Khi khách hàng có nhu cầu gửi hàng hoá chỉ cần đăng ký thành viên, sau đó đặt lệnh gửi đồ, hệ thống sẽ tính toán chi phí và nếu khách hàng đồng ý giao dịch thì sẽ có nhân viên đến giúp đỡ thu dọn và chuyển đồ đạc về kho. Phần mềm còn giúp khách hàng quản lý được danh sách các đồ đang gửi trong kho, tình trạng cũng như khả năng quan sát trực tiếp bằng camera. Khi khách hàng có nhu cầu thu hồi lại hàng hoá, chỉ cần thao tác trên phần mềm, trong một thời gian ngắn sẽ có nhân viên đến giao lại đồ cho khách. Khách hàng còn có thể đặt chế độ cho thuê với những đồ kí gửi của mình, trong trường hợp đó hệ thống sẽ tự động sắp xếp và đứng ra trung gian cho thuê và quản lý đồ kí gửi của khách hàng.&lt;/p&gt;
+
+&lt;h2 id=&#34;giá-trị-có-thể-mang-lại&#34;&gt;Giá trị có thể mang lại&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tiết kiệm không gian sinh hoạt cho khách hàng&lt;/li&gt;
+&lt;li&gt;Giảm thời gian, công sức quản lý, thu dọn đồ đạc, hàng hoá không sử dụng&lt;/li&gt;
+&lt;li&gt;Mang lại một phần nhỏ doanh thu từ việc cho thuê nếu có&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;phân-khúc-định-lượng-khách-hàng&#34;&gt;Phân khúc, định lượng khách hàng&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Những hộ gia đình&lt;/li&gt;
+&lt;li&gt;Những hộ kinh doanh nhỏ, có nhiều hàng hoá nhưng không có kho bãi&lt;/li&gt;
+&lt;li&gt;Những công ty nhỏ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;khó-khăn-có-thể-gặp-phải&#34;&gt;Khó khăn có thể gặp phải&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Chi phí bảo quản với số lượng nhỏ có thể đáng kể so với giá thành của sản phẩm, khiến cho dịch vụ mất đi tính hấp dẫn. Giải quyết bằng cách tối ưu tối đa chi phí hoạt động và quản lý, kho bãi xây dựng phân tán, ở những khu thưa dân cư có giá thành thuê thấp (hoặc có thể phát triển như uber, grab, những hộ gia đình có mặt bằng không sử dụng thì xây dựng kho tạm để kinh doanh cho thuê)&lt;/li&gt;
+&lt;li&gt;Tốc độ kí gửi hoặc hoàn trả hàng hoá chậm.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Inverse Posenet</title>
+      <link>https://tuananhbui89.github.io/project/invpose/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/invpose/</guid>
+      <description>
+
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;Posenet [1] has proved the success of Deep Convolutional Neural Network in field of camera relocalization to predict camera pose (position and orientation) from a image. This work has demonstrated that convnets can be used to solve complicated out of image plane regression problems. However, in the inverse problem, such that regression (inference) a visual sence from a pose where we desire to view with specific angle still a hard problem (even with human). One of problem is that we don’t have a good measure method to evaluate the generated sence compare with the ground truth image. Another problem is that the ability of model inference the full information of a object taken from several images is still unknown this time. Fortunately, with the development of Generative Adversarial Network, we now have a more efficient method to evaluate a generated model.
+We propose a Inverse Posenet, the end2end system which can generate (inference) a visual sence from location you want&lt;/p&gt;
+
+&lt;h2 id=&#34;architecture&#34;&gt;Architecture&lt;/h2&gt;
+
+&lt;p&gt;Overall system&lt;/p&gt;
+
+&lt;p&gt;We use a simple system in which the Generator attempts to deceive the Discriminator by producing a fake sence driectly from the 6 DoF vector. The input of Discriminator is a set consisting of a Pose vector and a corresponding sense (real or fake image).
+&lt;img src=&#34;https://tuananhbui89.github.io/img/InvPose/Overall_system.png&#34; alt=&#34;Overall&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Generator&lt;/p&gt;
+
+&lt;p&gt;Follow the Pix2Pix paper [2], instead of using a prior distribution as input as in original GAN, we use a Dropout in some layers as a gaussian prior distribution.&lt;br /&gt;
+&lt;img src=&#34;https://tuananhbui89.github.io/img/InvPose/Generator_v2.png&#34; alt=&#34;Generator&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Discriminator&lt;/p&gt;
+
+&lt;p&gt;As in Conditional GAN [3] we use the 6 DoF vector as a &amp;ldquo;label&amp;rdquo; for each corresponding sence, thus, we add them to the second last layer.
+&lt;img src=&#34;https://tuananhbui89.github.io/img/InvPose/Discriminator_v2.png&#34; alt=&#34;Discriminator&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;detail&#34;&gt;Detail&lt;/h2&gt;
+
+&lt;p&gt;Generator&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Layer&lt;/th&gt;
+&lt;th&gt;Func&lt;/th&gt;
+&lt;th&gt;Input&lt;/th&gt;
+&lt;th&gt;Output&lt;/th&gt;
+&lt;th&gt;Sub-process&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;G_d1&lt;/td&gt;
+&lt;td&gt;Linear&lt;/td&gt;
+&lt;td&gt;7x1&lt;/td&gt;
+&lt;td&gt;2048x1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Reshape&lt;/td&gt;
+&lt;td&gt;2048x1&lt;/td&gt;
+&lt;td&gt;2x2x512&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;G_d2&lt;/td&gt;
+&lt;td&gt;Deconv&lt;/td&gt;
+&lt;td&gt;2x2x512&lt;/td&gt;
+&lt;td&gt;4x4x512&lt;/td&gt;
+&lt;td&gt;Relu + BN + Dropout&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;G_d3&lt;/td&gt;
+&lt;td&gt;Deconv&lt;/td&gt;
+&lt;td&gt;4x4x512&lt;/td&gt;
+&lt;td&gt;8x8x512&lt;/td&gt;
+&lt;td&gt;Relu + BN + Dropout&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;G_d4&lt;/td&gt;
+&lt;td&gt;Deconv&lt;/td&gt;
+&lt;td&gt;8x8x512&lt;/td&gt;
+&lt;td&gt;16x16x512&lt;/td&gt;
+&lt;td&gt;Relu + BN&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;G_d5&lt;/td&gt;
+&lt;td&gt;Deconv&lt;/td&gt;
+&lt;td&gt;16x16x512&lt;/td&gt;
+&lt;td&gt;32x32x256&lt;/td&gt;
+&lt;td&gt;Relu + BN&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;G_d6&lt;/td&gt;
+&lt;td&gt;Deconv&lt;/td&gt;
+&lt;td&gt;32x32x256&lt;/td&gt;
+&lt;td&gt;64x64x128&lt;/td&gt;
+&lt;td&gt;Relu + BN&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;G_d7&lt;/td&gt;
+&lt;td&gt;Deconv&lt;/td&gt;
+&lt;td&gt;64x64x128&lt;/td&gt;
+&lt;td&gt;128x128x64&lt;/td&gt;
+&lt;td&gt;Relu + BN&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;G_d8&lt;/td&gt;
+&lt;td&gt;Deconv&lt;/td&gt;
+&lt;td&gt;128x128x64&lt;/td&gt;
+&lt;td&gt;256x256x3&lt;/td&gt;
+&lt;td&gt;Relu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Discriminator&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Layer&lt;/th&gt;
+&lt;th&gt;Func&lt;/th&gt;
+&lt;th&gt;Input&lt;/th&gt;
+&lt;th&gt;Output&lt;/th&gt;
+&lt;th&gt;Sub-process&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;D_0&lt;/td&gt;
+&lt;td&gt;Conv&lt;/td&gt;
+&lt;td&gt;256x256x3&lt;/td&gt;
+&lt;td&gt;128x128x64&lt;/td&gt;
+&lt;td&gt;Lrelu&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;D_1&lt;/td&gt;
+&lt;td&gt;Conv&lt;/td&gt;
+&lt;td&gt;128x128x64&lt;/td&gt;
+&lt;td&gt;64x64x128&lt;/td&gt;
+&lt;td&gt;Lrelu + BN&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;D_2&lt;/td&gt;
+&lt;td&gt;Conv&lt;/td&gt;
+&lt;td&gt;64x64x128&lt;/td&gt;
+&lt;td&gt;32x32x256&lt;/td&gt;
+&lt;td&gt;Lrelu + BN&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;D_3&lt;/td&gt;
+&lt;td&gt;Conv&lt;/td&gt;
+&lt;td&gt;32x32x256&lt;/td&gt;
+&lt;td&gt;16x16x512&lt;/td&gt;
+&lt;td&gt;Lrelu + BN&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Reshape&lt;/td&gt;
+&lt;td&gt;16x16x512&lt;/td&gt;
+&lt;td&gt;131072x1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;D_4&lt;/td&gt;
+&lt;td&gt;Linear&lt;/td&gt;
+&lt;td&gt;131072x1&lt;/td&gt;
+&lt;td&gt;7x1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Concat&lt;/td&gt;
+&lt;td&gt;7x1 + 7x1&lt;/td&gt;
+&lt;td&gt;14x1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;D_5&lt;/td&gt;
+&lt;td&gt;Linear&lt;/td&gt;
+&lt;td&gt;14x1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;baseline-result&#34;&gt;Baseline Result&lt;/h2&gt;
+
+&lt;p&gt;Training process
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/9bF5NFmL7ME&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Testing process
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/7GMGcwIcXEI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Left image: Grounth truth sence corresponding with input camera pose (6 DoF vector).
+Right image: Generated sence by Inverse Posenet with input is the same camera pose.&lt;/p&gt;
+
+&lt;h2 id=&#34;on-going-works&#34;&gt;On going works&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Try using Skip Connection to Generator and Discriminator&lt;/li&gt;
+&lt;li&gt;Try using Cycle GAN model to improve&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;[1] &lt;a href=&#34;https://arxiv.org/abs/1505.07427&#34; target=&#34;_blank&#34;&gt;PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[2] &lt;a href=&#34;https://arxiv.org/abs/1611.07004&#34; target=&#34;_blank&#34;&gt;Image-to-Image Translation with Conditional Adversarial Networks&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[3] &lt;a href=&#34;https://arxiv.org/abs/1411.1784&#34; target=&#34;_blank&#34;&gt;Conditional Generative Adversarial Nets&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Football Minimap</title>
+      <link>https://tuananhbui89.github.io/project/football/</link>
+      <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/football/</guid>
+      <description>
+
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;Currently, the Football TV audiences do not know location of players who not in the current camera frame. Therefore they might has not the full experience as spectators are watching live on the stadium. We can have some simple solutions for this problem, such as using another camera to shoot he entire football field, or using statistical data from the chip attached to the players. However, from the perspective of computer vision engineer, I propose one more solution for the this problem (might be not a good choice but just for fun:), in which I use the GAN model to create a minimap from a camera frame as in the FIFA or PES football video game as figure bellow
+&lt;img src=&#34;https://tuananhbui89.github.io/img/Football/Full_Frame.png&#34; alt=&#34;Full Frame&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-do-that&#34;&gt;How to do that&lt;/h2&gt;
+
+&lt;p&gt;In the case of players in the frame, I use the GAN model (&lt;a href=&#34;https://phillipi.github.io/pix2pix/&#34; target=&#34;_blank&#34;&gt;Image 2 Image Translation&lt;/a&gt;) to learn the transformation from the player&amp;rsquo;s position in the frame to the position of the player in the minimap.&lt;/p&gt;
+
+&lt;p&gt;In the case of players are not in the current frame: I use [?] to predict a current positions of the players fromthe previous positions and their trajectory (or you might hope GAN as one size fit all model which can learn not only the current frame but also the invisible players)&lt;/p&gt;
+
+&lt;h2 id=&#34;create-a-dataset&#34;&gt;Create a Dataset&lt;/h2&gt;
+
+&lt;p&gt;Because the real matches on TV don&amp;rsquo;t have a minimap therefore I use the alternative sources there are FIFA18 and PES18 video on &lt;a href=&#34;https://www.youtube.com/watch?v=p_guVnM6TSU&amp;amp;t=211s&#34; target=&#34;_blank&#34;&gt;Youtube&lt;/a&gt;. Then I do some preprocess to collect and clean data.&lt;/p&gt;
+
+&lt;p&gt;Step 1: Cut only the frames which have the minimap within. Because in those videos, it&amp;rsquo;s not only normal frame (which has a minimap) but also spotlight or review or something else. Therefore I have to manually select the period of time in which there are only normal frames. I sample with the sample rate as 2 frames per second&lt;/p&gt;
+
+&lt;p&gt;Step 2: Cut minimap from a full frame and replace it by a random noise window. To avoid overfitting (beacase full frame also has a minimap) I replace a minimap by a random noise frame as figure below
+&lt;img src=&#34;https://tuananhbui89.github.io/img/Football/Frame_with_Noise.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Step 3: Remove bad samples (Those minimap have overlap by line or player within) as figure below
+&lt;img src=&#34;https://tuananhbui89.github.io/img/Football/Bad_example1.jpg&#34; alt=&#34;&amp;quot;Bad Example 1&amp;quot;&#34; /&gt; &lt;img src=&#34;https://tuananhbui89.github.io/img/Football/Bad_example2.jpg&#34; alt=&#34;&amp;quot;Bad Example 2&amp;quot;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After 3 steps as above, I have two sets: The camera frame set (with noised minimap) and the minimap set. I will chose camera frame set as a Source and minimap as a Target for Pix2Pix model. (You can swap 2 source and have enjoy the interesting result, in which we can render a camera frame from a minimap) . Then I do a preprocessing to have a better dataset for training&lt;/p&gt;
+
+&lt;h2 id=&#34;preprocessing&#34;&gt;Preprocessing&lt;/h2&gt;
+
+&lt;h3 id=&#34;crop-the-active-window-in-minimap&#34;&gt;Crop the active window in minimap&lt;/h3&gt;
+
+&lt;p&gt;Because the football video game knows locations of not only players in camera frame but also all of players in the game. Therefore it can create a completed minimap that has the locations of all players. TV audiences who have only camera frame cannot do that. They only infer the position of players who are in camera frame, and cannot infer remaining players. Based on this intuition, I improve the model by doing crop the active window in minimap as follow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Localize position of the ball (usually has yellow - color in minimap)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Crop roughly &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; width of minimap (&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; in the left of ball and &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; in the right of ball)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Keep the height&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then result as below
+&lt;img src=&#34;https://tuananhbui89.github.io/img/Football/Crop_Minimap.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;filter-audience-and-grass&#34;&gt;Filter Audience and Grass&lt;/h3&gt;
+
+&lt;p&gt;I realize that audience change in each frame, and they might made a huge noise to model, which cause training more difficult. Moreover, players is really small in whole frame, and grass is not stable in each frame or each game, therefore, similar to audience, they might lead a huge noise to model. Therefore I design a filter to filter them from a Camera frame using &lt;a href=&#34;1. https://www.mathworks.com/help/images/image-segmentation-using-the-color-thesholder-app.html&#34; target=&#34;_blank&#34;&gt;Color Threshold App&lt;/a&gt; in Matlab
+&lt;img src=&#34;https://tuananhbui89.github.io/img/Football/CropMasked_Frame.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;difficulties&#34;&gt;Difficulties&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pix2Pix model has demonstrated its ability to learn the transformation from domain A to domain B as shown in the paper: Day to night, BW to Color, Aerial to Map. However, in those cases, 2 domain are not too much different. In this case, we need a transformation from 2 completely different domains. It also needs a transformation from 2D - 2D matching in abstract level (model need to know each player is correspond to each circle in minimap). Therefore, it will be very challenge to learn&lt;/li&gt;
+&lt;li&gt;The difference between a Video Game Frame and a Real Camera Frame.&lt;/li&gt;
+&lt;li&gt;Dataset too small and noise.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I think this problem is difficult even humans, but it is worth to try and see what the GAN can do.&lt;/p&gt;
+
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Foolish Idea</title>
+      <link>https://tuananhbui89.github.io/project/idea/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/idea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Viettel</title>
+      <link>https://tuananhbui89.github.io/project/viettel/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/viettel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pigeon</title>
+      <link>https://tuananhbui89.github.io/post/viettel-pigeon/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/post/viettel-pigeon/</guid>
+      <description>&lt;p&gt;Khoảng năm 2015, Viện R&amp;amp;D Viettel phát động một cuộc thi nội bộ về việc sáng tạo logo và đặt tên cho một sản phẩm trọng điểm của Viettel hồi đó - tên lửa hành trình của Viettel, hay vẫn được nhắc đến là &amp;ldquo;dự án A1&amp;rdquo;. Cũng muốn thử sức của mình, tôi đã tham gia cuộc thi. Kết quả hồi đó là sau một thời gian với hàng chục bài dự thi thì cuối cùng ban lãnh đạo của Viện không chọn ra sản phẩm nào cả. Lý do được đưa ra là các ý tưởng còn quá đơn giản, nói chung là không hợp ý sếp. Thời gian trôi qua tôi cũng quên đi cái ý tưởng nho nhỏ đó của mình cho đến khi một ngày cuối năm 2017, tôi thấy một bài viết trên báo về một thiết bị do Viettel sản xuất có tên là &lt;a href=&#34;(http://vtx.vn/content/vt-pigeon-0)&#34; target=&#34;_blank&#34;&gt;VT-Pigeon&lt;/a&gt;, đúng cái tên mà hồi xưa tôi đặt. Thực ra có thể là không liên quan gì đến bài dự thi của tôi, và mục đích của bài viết này tôi chỉ muốn nhắc lại về cái ý tưởng nhỏ của mình, nhưng cũng không giấu được niềm vui về việc ít nhất cũng có người nghĩ đó là một cái tên hay giống như ngày xưa tôi đã nghĩ đến.&lt;/p&gt;
+
+&lt;p&gt;Tại sao lại dùng hình ảnh con chim bồ câu Pigeon cho một thiết bị quân sự?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Triết lý quân sự của Việt Nam từ thời xưa đến bây giờ đều là luôn mong muốn có hoà bình, là bảo vệ tổ quốc chứ không chủ động gây chiến. Đối với việc Viettel sản xuất vũ khí và thiết bị quân sự cũng như vậy. Triết lý, mục đích của ban lãnh đạo Tập đoàn đó là muốn có một thiết bị phòng thủ giúp Việt Nam có thể tự tin ứng phó trước kẻ thù chứ không phải một thiết bị tấn công gây chiến. Do đó tôi nghĩ sẽ phù hợp hơn là một cái tên mang triết lý hoà bình hơn là một cái tên hung hãn.&lt;/li&gt;
+&lt;li&gt;Là một thiết bị bay nên tôi nghĩ đến một loài chim, hoặc một vị thần nào đó biết bay trong lịch sử Việt Nam. Một số cái tên như Thánh gióng, Phù đổng, hay loài chim như chim nhạn, chim lạc, chim câu được tôi nghĩ đến. Và cuối cùng chim bồ câu - Pigeon là cái tên tôi chọn vì nó cũng phổ biến trong văn hoá Phương Tây với ý nghĩa là loài chim của hoà bình.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tại sao tôi chọn logo như thế?&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Đầu tiên là nó mang hình dáng của con chim đang cất cánh bay&lt;/li&gt;
+&lt;li&gt;Thứ hai là nó mang hình ảnh của ngọn lửa đang bùng cháy, cũng&lt;/li&gt;
+&lt;li&gt;Thứ ba là hình tượng của Viettel ở trong logo đó với thân chim là chữ V và đôi cánh là chữ T cách điệu
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Do không có chuyên môn về đồ hoạ mỹ thuật, tôi chỉ đơn giản là cắt ghép và chỉnh sửa một chút bằng paint nên logo còn rất thô sơ, nhưng về cơ bản vẫn thể hiện được những ý tưởng tôi muốn diễn đạt. Hồi đó khi tôi tham dự cuộc thi tôi cũng đã rất háo hức, cũng email hỏi ban tổ chức mấy lần về việc sao chưa có kết quả. Và cũng hơi hụt hẫng khi kết quả là chẳng đỗ. Tuy nhiên đó cũng là một dấu ấn nhỏ trong quá trình làm việc ở Viettel của tôi.
+&lt;img src=&#34;https://tuananhbui89.github.io/img/Viettel/VT-Pigeon.png&#34; alt=&#34;VT&#34; style=&#34;width: 200px;&#34;/&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generative Adversarial Autoencoder Network</title>
+      <link>https://tuananhbui89.github.io/publication/cvpr18-gaan/</link>
+      <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/publication/cvpr18-gaan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient and Effective Cascade Correspondence Search for Large-scale Image-based Localization</title>
+      <link>https://tuananhbui89.github.io/publication/aaai18/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/publication/aaai18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSFOD</title>
+      <link>https://tuananhbui89.github.io/project/ssfod/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/ssfod/</guid>
+      <description>&lt;p&gt;Drone technology has had a long way to go, Drone now has the ability to be far farther, smaller, more flexible and combined with weapons &lt;a href=&#34;https://www.ted.com/talks/raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;. Accompanying the development of Drone are the concerns about national safety and security when more and more Drone applications are used in the military or terrorist groups take advantage of terrorism &lt;a href=&#34;https://www.nytimes.com/video/world/middleeast/100000005040770/isis-drone-attack-mosul.html&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;. Due to the above reasons, Drone detection technology is being set up as an urgent need and there have been some remarkable results. Radio-detecting drone technologies &lt;a href=&#34;http://www.aaronia.com/products/solutions/Aaronia-Drone-Detection-System/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; have a range of up to 4-6 km, which is capable of operating in bad weather conditions or being blocked by buildings or hills &lt;a href=&#34;https://anti-drone.eu/products/radar-systems/harrier-drone-surveillance-radar.html&#34; target=&#34;_blank&#34;&gt;HARRIER Drone Surveillance Radar&lt;/a&gt;. However, the downside of the system using the radio is that it is susceptible to radio waves and is ineffective in the case of drone using frequency hopping technologies. A technology that is being developed to replace radio technology is the technology that uses a high-resolution camera to detect drone by observing and detecting abnormal movements in the sky, from which detection, classification and localization of Drone. That is the goal of the &lt;a href=&#34;https://tuananhbui89.github.io/files/SSFOD/SSFOD_system.pdf&#34; target=&#34;_blank&#34;&gt;SSFOD&lt;/a&gt; project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>USBL</title>
+      <link>https://tuananhbui89.github.io/project/usbl/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/usbl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Example Talk</title>
-      <link>https://ngoacmieng.github.io/talk/example-talk/</link>
+      <link>https://tuananhbui89.github.io/talk/example-talk/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
       
-      <guid>https://ngoacmieng.github.io/talk/example-talk/</guid>
+      <guid>https://tuananhbui89.github.io/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>https://ngoacmieng.github.io/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ngoacmieng.github.io/project/deep-learning/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>https://ngoacmieng.github.io/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ngoacmieng.github.io/project/example-external-project/</guid>
-      <description></description>
     </item>
     
   </channel>

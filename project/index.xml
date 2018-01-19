@@ -1,39 +1,354 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Tuan-Anh Bui</title>
-    <link>https://ngoacmieng.github.io/project/</link>
-    <description>Recent content in Projects on Tuan-Anh Bui</description>
+    <title>Project on Tuan-Anh Bui</title>
+    <link>https://tuananhbui89.github.io/project/</link>
+    <description>Recent content in Project on Tuan-Anh Bui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
     <atom:link href="/project/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Deep Learning</title>
-      <link>https://ngoacmieng.github.io/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Inverse Posenet</title>
+      <link>https://tuananhbui89.github.io/project/invpose/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ngoacmieng.github.io/project/deep-learning/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+      <guid>https://tuananhbui89.github.io/project/invpose/</guid>
+      <description>
 
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
 
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Posenet [1] has proved the success of Deep Convolutional Neural Network in field of camera relocalization to predict camera pose (position and orientation) from a image. This work has demonstrated that convnets can be used to solve complicated out of image plane regression problems. However, in the inverse problem, such that regression (inference) a visual sence from a pose where we desire to view with specific angle still a hard problem (even with human). One of problem is that we don’t have a good measure method to evaluate the generated sence compare with the ground truth image. Another problem is that the ability of model inference the full information of a object taken from several images is still unknown this time. Fortunately, with the development of Generative Adversarial Network, we now have a more efficient method to evaluate a generated model.
+We propose a Inverse Posenet, the end2end system which can generate (inference) a visual sence from location you want&lt;/p&gt;
 
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;h2 id=&#34;architecture&#34;&gt;Architecture&lt;/h2&gt;
 
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;p&gt;Overall system&lt;/p&gt;
+
+&lt;p&gt;We use a simple system in which the Generator attempts to deceive the Discriminator by producing a fake sence driectly from the 6 DoF vector. The input of Discriminator is a set consisting of a Pose vector and a corresponding sense (real or fake image).
+&lt;img src=&#34;https://tuananhbui89.github.io/img/InvPose/Overall_system.png&#34; alt=&#34;Overall&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Generator&lt;/p&gt;
+
+&lt;p&gt;Follow the Pix2Pix paper [2], instead of using a prior distribution as input as in original GAN, we use a Dropout in some layers as a gaussian prior distribution.&lt;br /&gt;
+&lt;img src=&#34;https://tuananhbui89.github.io/img/InvPose/Generator_v2.png&#34; alt=&#34;Generator&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Discriminator&lt;/p&gt;
+
+&lt;p&gt;As in Conditional GAN [3] we use the 6 DoF vector as a &amp;ldquo;label&amp;rdquo; for each corresponding sence, thus, we add them to the second last layer.
+&lt;img src=&#34;https://tuananhbui89.github.io/img/InvPose/Discriminator_v2.png&#34; alt=&#34;Discriminator&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;detail&#34;&gt;Detail&lt;/h2&gt;
+
+&lt;p&gt;Generator&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Layer&lt;/th&gt;
+&lt;th&gt;Func&lt;/th&gt;
+&lt;th&gt;Input&lt;/th&gt;
+&lt;th&gt;Output&lt;/th&gt;
+&lt;th&gt;Sub-process&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;G_d1&lt;/td&gt;
+&lt;td&gt;Linear&lt;/td&gt;
+&lt;td&gt;7x1&lt;/td&gt;
+&lt;td&gt;2048x1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Reshape&lt;/td&gt;
+&lt;td&gt;2048x1&lt;/td&gt;
+&lt;td&gt;2x2x512&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;G_d2&lt;/td&gt;
+&lt;td&gt;Deconv&lt;/td&gt;
+&lt;td&gt;2x2x512&lt;/td&gt;
+&lt;td&gt;4x4x512&lt;/td&gt;
+&lt;td&gt;Relu + BN + Dropout&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;G_d3&lt;/td&gt;
+&lt;td&gt;Deconv&lt;/td&gt;
+&lt;td&gt;4x4x512&lt;/td&gt;
+&lt;td&gt;8x8x512&lt;/td&gt;
+&lt;td&gt;Relu + BN + Dropout&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;G_d4&lt;/td&gt;
+&lt;td&gt;Deconv&lt;/td&gt;
+&lt;td&gt;8x8x512&lt;/td&gt;
+&lt;td&gt;16x16x512&lt;/td&gt;
+&lt;td&gt;Relu + BN&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;G_d5&lt;/td&gt;
+&lt;td&gt;Deconv&lt;/td&gt;
+&lt;td&gt;16x16x512&lt;/td&gt;
+&lt;td&gt;32x32x256&lt;/td&gt;
+&lt;td&gt;Relu + BN&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;G_d6&lt;/td&gt;
+&lt;td&gt;Deconv&lt;/td&gt;
+&lt;td&gt;32x32x256&lt;/td&gt;
+&lt;td&gt;64x64x128&lt;/td&gt;
+&lt;td&gt;Relu + BN&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;G_d7&lt;/td&gt;
+&lt;td&gt;Deconv&lt;/td&gt;
+&lt;td&gt;64x64x128&lt;/td&gt;
+&lt;td&gt;128x128x64&lt;/td&gt;
+&lt;td&gt;Relu + BN&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;G_d8&lt;/td&gt;
+&lt;td&gt;Deconv&lt;/td&gt;
+&lt;td&gt;128x128x64&lt;/td&gt;
+&lt;td&gt;256x256x3&lt;/td&gt;
+&lt;td&gt;Relu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Discriminator&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Layer&lt;/th&gt;
+&lt;th&gt;Func&lt;/th&gt;
+&lt;th&gt;Input&lt;/th&gt;
+&lt;th&gt;Output&lt;/th&gt;
+&lt;th&gt;Sub-process&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;D_0&lt;/td&gt;
+&lt;td&gt;Conv&lt;/td&gt;
+&lt;td&gt;256x256x3&lt;/td&gt;
+&lt;td&gt;128x128x64&lt;/td&gt;
+&lt;td&gt;Lrelu&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;D_1&lt;/td&gt;
+&lt;td&gt;Conv&lt;/td&gt;
+&lt;td&gt;128x128x64&lt;/td&gt;
+&lt;td&gt;64x64x128&lt;/td&gt;
+&lt;td&gt;Lrelu + BN&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;D_2&lt;/td&gt;
+&lt;td&gt;Conv&lt;/td&gt;
+&lt;td&gt;64x64x128&lt;/td&gt;
+&lt;td&gt;32x32x256&lt;/td&gt;
+&lt;td&gt;Lrelu + BN&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;D_3&lt;/td&gt;
+&lt;td&gt;Conv&lt;/td&gt;
+&lt;td&gt;32x32x256&lt;/td&gt;
+&lt;td&gt;16x16x512&lt;/td&gt;
+&lt;td&gt;Lrelu + BN&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Reshape&lt;/td&gt;
+&lt;td&gt;16x16x512&lt;/td&gt;
+&lt;td&gt;131072x1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;D_4&lt;/td&gt;
+&lt;td&gt;Linear&lt;/td&gt;
+&lt;td&gt;131072x1&lt;/td&gt;
+&lt;td&gt;7x1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Concat&lt;/td&gt;
+&lt;td&gt;7x1 + 7x1&lt;/td&gt;
+&lt;td&gt;14x1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;D_5&lt;/td&gt;
+&lt;td&gt;Linear&lt;/td&gt;
+&lt;td&gt;14x1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;baseline-result&#34;&gt;Baseline Result&lt;/h2&gt;
+
+&lt;p&gt;Training process
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/9bF5NFmL7ME&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Testing process
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/7GMGcwIcXEI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Left image: Grounth truth sence corresponding with input camera pose (6 DoF vector).
+Right image: Generated sence by Inverse Posenet with input is the same camera pose.&lt;/p&gt;
+
+&lt;h2 id=&#34;on-going-works&#34;&gt;On going works&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Try using Skip Connection to Generator and Discriminator&lt;/li&gt;
+&lt;li&gt;Try using Cycle GAN model to improve&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+
+&lt;p&gt;[1] &lt;a href=&#34;https://arxiv.org/abs/1505.07427&#34; target=&#34;_blank&#34;&gt;PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[2] &lt;a href=&#34;https://arxiv.org/abs/1611.07004&#34; target=&#34;_blank&#34;&gt;Image-to-Image Translation with Conditional Adversarial Networks&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[3] &lt;a href=&#34;https://arxiv.org/abs/1411.1784&#34; target=&#34;_blank&#34;&gt;Conditional Generative Adversarial Nets&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>https://ngoacmieng.github.io/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Football Minimap</title>
+      <link>https://tuananhbui89.github.io/project/football/</link>
+      <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ngoacmieng.github.io/project/example-external-project/</guid>
+      <guid>https://tuananhbui89.github.io/project/football/</guid>
+      <description>
+
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;Currently, the Football TV audiences do not know location of players who not in the current camera frame. Therefore they might has not the full experience as spectators are watching live on the stadium. We can have some simple solutions for this problem, such as using another camera to shoot he entire football field, or using statistical data from the chip attached to the players. However, from the perspective of computer vision engineer, I propose one more solution for the this problem (might be not a good choice but just for fun:), in which I use the GAN model to create a minimap from a camera frame as in the FIFA or PES football video game as figure bellow
+&lt;img src=&#34;https://tuananhbui89.github.io/img/Football/Full_Frame.png&#34; alt=&#34;Full Frame&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-do-that&#34;&gt;How to do that&lt;/h2&gt;
+
+&lt;p&gt;In the case of players in the frame, I use the GAN model (&lt;a href=&#34;https://phillipi.github.io/pix2pix/&#34; target=&#34;_blank&#34;&gt;Image 2 Image Translation&lt;/a&gt;) to learn the transformation from the player&amp;rsquo;s position in the frame to the position of the player in the minimap.&lt;/p&gt;
+
+&lt;p&gt;In the case of players are not in the current frame: I use [?] to predict a current positions of the players fromthe previous positions and their trajectory (or you might hope GAN as one size fit all model which can learn not only the current frame but also the invisible players)&lt;/p&gt;
+
+&lt;h2 id=&#34;create-a-dataset&#34;&gt;Create a Dataset&lt;/h2&gt;
+
+&lt;p&gt;Because the real matches on TV don&amp;rsquo;t have a minimap therefore I use the alternative sources there are FIFA18 and PES18 video on &lt;a href=&#34;https://www.youtube.com/watch?v=p_guVnM6TSU&amp;amp;t=211s&#34; target=&#34;_blank&#34;&gt;Youtube&lt;/a&gt;. Then I do some preprocess to collect and clean data.&lt;/p&gt;
+
+&lt;p&gt;Step 1: Cut only the frames which have the minimap within. Because in those videos, it&amp;rsquo;s not only normal frame (which has a minimap) but also spotlight or review or something else. Therefore I have to manually select the period of time in which there are only normal frames. I sample with the sample rate as 2 frames per second&lt;/p&gt;
+
+&lt;p&gt;Step 2: Cut minimap from a full frame and replace it by a random noise window. To avoid overfitting (beacase full frame also has a minimap) I replace a minimap by a random noise frame as figure below
+&lt;img src=&#34;https://tuananhbui89.github.io/img/Football/Frame_with_Noise.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Step 3: Remove bad samples (Those minimap have overlap by line or player within) as figure below
+&lt;img src=&#34;https://tuananhbui89.github.io/img/Football/Bad_example1.jpg&#34; alt=&#34;&amp;quot;Bad Example 1&amp;quot;&#34; /&gt; &lt;img src=&#34;https://tuananhbui89.github.io/img/Football/Bad_example2.jpg&#34; alt=&#34;&amp;quot;Bad Example 2&amp;quot;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After 3 steps as above, I have two sets: The camera frame set (with noised minimap) and the minimap set. I will chose camera frame set as a Source and minimap as a Target for Pix2Pix model. (You can swap 2 source and have enjoy the interesting result, in which we can render a camera frame from a minimap) . Then I do a preprocessing to have a better dataset for training&lt;/p&gt;
+
+&lt;h2 id=&#34;preprocessing&#34;&gt;Preprocessing&lt;/h2&gt;
+
+&lt;h3 id=&#34;crop-the-active-window-in-minimap&#34;&gt;Crop the active window in minimap&lt;/h3&gt;
+
+&lt;p&gt;Because the football video game knows locations of not only players in camera frame but also all of players in the game. Therefore it can create a completed minimap that has the locations of all players. TV audiences who have only camera frame cannot do that. They only infer the position of players who are in camera frame, and cannot infer remaining players. Based on this intuition, I improve the model by doing crop the active window in minimap as follow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Localize position of the ball (usually has yellow - color in minimap)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Crop roughly &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; width of minimap (&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; in the left of ball and &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;4&lt;/sub&gt; in the right of ball)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Keep the height&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then result as below
+&lt;img src=&#34;https://tuananhbui89.github.io/img/Football/Crop_Minimap.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;filter-audience-and-grass&#34;&gt;Filter Audience and Grass&lt;/h3&gt;
+
+&lt;p&gt;I realize that audience change in each frame, and they might made a huge noise to model, which cause training more difficult. Moreover, players is really small in whole frame, and grass is not stable in each frame or each game, therefore, similar to audience, they might lead a huge noise to model. Therefore I design a filter to filter them from a Camera frame using &lt;a href=&#34;1. https://www.mathworks.com/help/images/image-segmentation-using-the-color-thesholder-app.html&#34; target=&#34;_blank&#34;&gt;Color Threshold App&lt;/a&gt; in Matlab
+&lt;img src=&#34;https://tuananhbui89.github.io/img/Football/CropMasked_Frame.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;difficulties&#34;&gt;Difficulties&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pix2Pix model has demonstrated its ability to learn the transformation from domain A to domain B as shown in the paper: Day to night, BW to Color, Aerial to Map. However, in those cases, 2 domain are not too much different. In this case, we need a transformation from 2 completely different domains. It also needs a transformation from 2D - 2D matching in abstract level (model need to know each player is correspond to each circle in minimap). Therefore, it will be very challenge to learn&lt;/li&gt;
+&lt;li&gt;The difference between a Video Game Frame and a Real Camera Frame.&lt;/li&gt;
+&lt;li&gt;Dataset too small and noise.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I think this problem is difficult even humans, but it is worth to try and see what the GAN can do.&lt;/p&gt;
+
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Foolish Idea</title>
+      <link>https://tuananhbui89.github.io/project/idea/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/idea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Viettel</title>
+      <link>https://tuananhbui89.github.io/project/viettel/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/viettel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSFOD</title>
+      <link>https://tuananhbui89.github.io/project/ssfod/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/ssfod/</guid>
+      <description>&lt;p&gt;Drone technology has had a long way to go, Drone now has the ability to be far farther, smaller, more flexible and combined with weapons &lt;a href=&#34;https://www.ted.com/talks/raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;. Accompanying the development of Drone are the concerns about national safety and security when more and more Drone applications are used in the military or terrorist groups take advantage of terrorism &lt;a href=&#34;https://www.nytimes.com/video/world/middleeast/100000005040770/isis-drone-attack-mosul.html&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;. Due to the above reasons, Drone detection technology is being set up as an urgent need and there have been some remarkable results. Radio-detecting drone technologies &lt;a href=&#34;http://www.aaronia.com/products/solutions/Aaronia-Drone-Detection-System/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; have a range of up to 4-6 km, which is capable of operating in bad weather conditions or being blocked by buildings or hills &lt;a href=&#34;https://anti-drone.eu/products/radar-systems/harrier-drone-surveillance-radar.html&#34; target=&#34;_blank&#34;&gt;HARRIER Drone Surveillance Radar&lt;/a&gt;. However, the downside of the system using the radio is that it is susceptible to radio waves and is ineffective in the case of drone using frequency hopping technologies. A technology that is being developed to replace radio technology is the technology that uses a high-resolution camera to detect drone by observing and detecting abnormal movements in the sky, from which detection, classification and localization of Drone. That is the goal of the &lt;a href=&#34;https://tuananhbui89.github.io/files/SSFOD/SSFOD_system.pdf&#34; target=&#34;_blank&#34;&gt;SSFOD&lt;/a&gt; project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>USBL</title>
+      <link>https://tuananhbui89.github.io/project/usbl/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/usbl/</guid>
       <description></description>
     </item>
     

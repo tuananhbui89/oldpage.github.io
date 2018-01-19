@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.32" />
+  <meta name="author" content="Tuan-Anh Bui">
+
+  
+  
+  
+  
+    
+      
+    
+  
+  <meta name="description" content="Motivation Currently, the Football TV audiences do not know location of players who not in the current camera frame. Therefore they might has not the full experience as spectators are watching live on the stadium. We can have some simple solutions for this problem, such as using another camera to shoot he entire football field, or using statistical data from the chip attached to the players. However, from the perspective of computer vision engineer, I propose one more solution for the this problem (might be not a good choice but just for fun:), in which I use the GAN model to create a minimap from a camera frame as in the FIFA or PES football video game as figure bellow How to do that In the case of players in the frame, I use the GAN model (Image 2 Image Translation) to learn the transformation from the player&rsquo;s position in the frame to the position of the player in the minimap.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://tuananhbui89.github.io/project/football/">
+
+  
+
+
+  
+
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="https://tuananhbui89.github.io/index.xml" type="application/rss+xml" title="Tuan-Anh Bui">
+  <link rel="feed" href="https://tuananhbui89.github.io/index.xml" type="application/rss+xml" title="Tuan-Anh Bui">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://tuananhbui89.github.io/project/football/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Tuan-Anh Bui">
+  <meta property="og:url" content="https://tuananhbui89.github.io/project/football/">
+  <meta property="og:title" content="Football Minimap | Tuan-Anh Bui">
+  <meta property="og:description" content="Motivation Currently, the Football TV audiences do not know location of players who not in the current camera frame. Therefore they might has not the full experience as spectators are watching live on the stadium. We can have some simple solutions for this problem, such as using another camera to shoot he entire football field, or using statistical data from the chip attached to the players. However, from the perspective of computer vision engineer, I propose one more solution for the this problem (might be not a good choice but just for fun:), in which I use the GAN model to create a minimap from a camera frame as in the FIFA or PES football video game as figure bellow How to do that In the case of players in the frame, I use the GAN model (Image 2 Image Translation) to learn the transformation from the player&rsquo;s position in the frame to the position of the player in the minimap.">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-01-09T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-01-09T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>Football Minimap | Tuan-Anh Bui</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Tuan-Anh Bui</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Football Minimap</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="pull-right">
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Football%20Minimap&amp;url=https%3a%2f%2ftuananhbui89.github.io%2fproject%2ffootball%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2ftuananhbui89.github.io%2fproject%2ffootball%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftuananhbui89.github.io%2fproject%2ffootball%2f&amp;title=Football%20Minimap"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2ftuananhbui89.github.io%2fproject%2ffootball%2f&amp;title=Football%20Minimap"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Football%20Minimap&amp;body=https%3a%2f%2ftuananhbui89.github.io%2fproject%2ffootball%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h2 id="motivation">Motivation</h2>
+
+<p>Currently, the Football TV audiences do not know location of players who not in the current camera frame. Therefore they might has not the full experience as spectators are watching live on the stadium. We can have some simple solutions for this problem, such as using another camera to shoot he entire football field, or using statistical data from the chip attached to the players. However, from the perspective of computer vision engineer, I propose one more solution for the this problem (might be not a good choice but just for fun:), in which I use the GAN model to create a minimap from a camera frame as in the FIFA or PES football video game as figure bellow
+<img src="/img/Football/Full_Frame.png" alt="Full Frame" /></p>
+
+<h2 id="how-to-do-that">How to do that</h2>
+
+<p>In the case of players in the frame, I use the GAN model (<a href="https://phillipi.github.io/pix2pix/" target="_blank">Image 2 Image Translation</a>) to learn the transformation from the player&rsquo;s position in the frame to the position of the player in the minimap.</p>
+
+<p>In the case of players are not in the current frame: I use [?] to predict a current positions of the players fromthe previous positions and their trajectory (or you might hope GAN as one size fit all model which can learn not only the current frame but also the invisible players)</p>
+
+<h2 id="create-a-dataset">Create a Dataset</h2>
+
+<p>Because the real matches on TV don&rsquo;t have a minimap therefore I use the alternative sources there are FIFA18 and PES18 video on <a href="https://www.youtube.com/watch?v=p_guVnM6TSU&amp;t=211s" target="_blank">Youtube</a>. Then I do some preprocess to collect and clean data.</p>
+
+<p>Step 1: Cut only the frames which have the minimap within. Because in those videos, it&rsquo;s not only normal frame (which has a minimap) but also spotlight or review or something else. Therefore I have to manually select the period of time in which there are only normal frames. I sample with the sample rate as 2 frames per second</p>
+
+<p>Step 2: Cut minimap from a full frame and replace it by a random noise window. To avoid overfitting (beacase full frame also has a minimap) I replace a minimap by a random noise frame as figure below
+<img src="/img/Football/Frame_with_Noise.jpg" alt="" /></p>
+
+<p>Step 3: Remove bad samples (Those minimap have overlap by line or player within) as figure below
+<img src="/img/Football/Bad_example1.jpg" alt="&quot;Bad Example 1&quot;" /> <img src="/img/Football/Bad_example2.jpg" alt="&quot;Bad Example 2&quot;" /></p>
+
+<p>After 3 steps as above, I have two sets: The camera frame set (with noised minimap) and the minimap set. I will chose camera frame set as a Source and minimap as a Target for Pix2Pix model. (You can swap 2 source and have enjoy the interesting result, in which we can render a camera frame from a minimap) . Then I do a preprocessing to have a better dataset for training</p>
+
+<h2 id="preprocessing">Preprocessing</h2>
+
+<h3 id="crop-the-active-window-in-minimap">Crop the active window in minimap</h3>
+
+<p>Because the football video game knows locations of not only players in camera frame but also all of players in the game. Therefore it can create a completed minimap that has the locations of all players. TV audiences who have only camera frame cannot do that. They only infer the position of players who are in camera frame, and cannot infer remaining players. Based on this intuition, I improve the model by doing crop the active window in minimap as follow:</p>
+
+<ul>
+<li><p>Localize position of the ball (usually has yellow - color in minimap)</p></li>
+
+<li><p>Crop roughly <sup>1</sup>&frasl;<sub>2</sub> width of minimap (<sup>1</sup>&frasl;<sub>4</sub> in the left of ball and <sup>1</sup>&frasl;<sub>4</sub> in the right of ball)</p></li>
+
+<li><p>Keep the height</p></li>
+</ul>
+
+<p>Then result as below
+<img src="/img/Football/Crop_Minimap.jpg" alt="" /></p>
+
+<h3 id="filter-audience-and-grass">Filter Audience and Grass</h3>
+
+<p>I realize that audience change in each frame, and they might made a huge noise to model, which cause training more difficult. Moreover, players is really small in whole frame, and grass is not stable in each frame or each game, therefore, similar to audience, they might lead a huge noise to model. Therefore I design a filter to filter them from a Camera frame using <a href="1. https://www.mathworks.com/help/images/image-segmentation-using-the-color-thesholder-app.html" target="_blank">Color Threshold App</a> in Matlab
+<img src="/img/Football/CropMasked_Frame.jpg" alt="" /></p>
+
+<h2 id="difficulties">Difficulties</h2>
+
+<ul>
+<li>Pix2Pix model has demonstrated its ability to learn the transformation from domain A to domain B as shown in the paper: Day to night, BW to Color, Aerial to Map. However, in those cases, 2 domain are not too much different. In this case, we need a transformation from 2 completely different domains. It also needs a transformation from 2D - 2D matching in abstract level (model need to know each player is correspond to each circle in minimap). Therefore, it will be very challenge to learn</li>
+<li>The difference between a Video Game Frame and a Real Camera Frame.</li>
+<li>Dataset too small and noise.</li>
+</ul>
+
+<p>I think this problem is difficult even humans, but it is worth to try and see what the GAN can do.</p>
+
+<h2 id="result">Result</h2>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/gan">GAN</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/deep-learning">deep-learning</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/idea">Idea</a>
+  
+</div>
+
+
+
+
+    
+    
+    
+
+    
+      
+      
+      
+      
+
+      
+      
+      
+      
+    
+
+  </div>
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://tuananhbui89.github.io/project/idea/"><span
+      aria-hidden="true">&larr;</span> Foolish Idea</a></li>
+    
+
+    
+    <li class="next"><a href="https://tuananhbui89.github.io/project/invpose/">Inverse Posenet <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

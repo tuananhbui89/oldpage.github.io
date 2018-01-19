@@ -2,13 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Tuan-Anh Bui</title>
-    <link>https://ngoacmieng.github.io/publication/</link>
+    <link>https://tuananhbui89.github.io/publication/</link>
     <description>Recent content in Publications on Tuan-Anh Bui</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Generative Adversarial Autoencoder Network</title>
+      <link>https://tuananhbui89.github.io/publication/cvpr18-gaan/</link>
+      <pubDate>Wed, 15 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/publication/cvpr18-gaan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient and Effective Cascade Correspondence Search for Large-scale Image-based Localization</title>
+      <link>https://tuananhbui89.github.io/publication/aaai18/</link>
+      <pubDate>Mon, 11 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/publication/aaai18/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
