@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>https://tuananhbui89.github.io/publication/eccv18/</loc>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://tuananhbui89.github.io/post/find_service/</loc>
       <lastmod>2018-01-16T00:00:00+08:00</lastmod>
     </url>
@@ -16,6 +25,42 @@
     
       <loc>https://tuananhbui89.github.io/post/your_store/</loc>
       <lastmod>2018-01-16T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/project/invpose/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/publication/aaai18/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/publication/sencenet/</loc>
+      <lastmod>2018-01-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/project/football/</loc>
+      <lastmod>2018-01-09T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -43,24 +88,6 @@
     
       <loc>https://tuananhbui89.github.io/post/viettel-pigeon/</loc>
       <lastmod>2018-01-07T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://tuananhbui89.github.io/publication/cvpr18-gaan/</loc>
-      <lastmod>2017-11-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://tuananhbui89.github.io/publication/aaai18/</loc>
-      <lastmod>2017-09-11T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -141,7 +168,17 @@
     <url>
     
       <loc>https://tuananhbui89.github.io/publication_types/1/</loc>
-      <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/publication_types/3/</loc>
+      <lastmod>2018-01-11T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -160,7 +197,17 @@
     <url>
     
       <loc>https://tuananhbui89.github.io/tags/deep-learning/</loc>
-      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/tags/gan/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -180,7 +227,7 @@
     <url>
     
       <loc>https://tuananhbui89.github.io/publication_types/</loc>
-      <lastmod>2017-11-15T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
