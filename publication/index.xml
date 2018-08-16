@@ -11,6 +11,36 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Improving GAN using Neighbor Embedding</title>
+      <link>https://tuananhbui89.github.io/publication/gan_en/</link>
+      <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/publication/gan_en/</guid>
+      <description>
+
+&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+
+&lt;p&gt;[1] &lt;a href=&#34;https://arxiv.org/abs/1611.07004&#34; target=&#34;_blank&#34;&gt;Image-to-Image Translation with Conditional Adversarial Networks&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[2] &lt;a href=&#34;https://arxiv.org/abs/1703.10593&#34; target=&#34;_blank&#34;&gt;Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[3] &lt;a href=&#34;https://arxiv.org/abs/1609.04802&#34; target=&#34;_blank&#34;&gt;Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[4] &lt;a href=&#34;https://arxiv.org/abs/1701.05927&#34; target=&#34;_blank&#34;&gt;Learning Particle Physics by Example: Location-Aware Generative Adversarial Networks for Physics Synthesis&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[5] &lt;a href=&#34;https://arxiv.org/abs/1703.05502&#34; target=&#34;_blank&#34;&gt;Steganographic Generative Adversarial Networks&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[6] &lt;a href=&#34;https://arxiv.org/abs/1710.10196&#34; target=&#34;_blank&#34;&gt;Progressive Growing of GANs for Improved Quality, Stability, and Variation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[7] &lt;a href=&#34;https://arxiv.org/abs/1803.08887&#34; target=&#34;_blank&#34;&gt;Generative Adversarial Autoencoder Networks&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[8] &lt;a href=&#34;https://arxiv.org/abs/1512.09300&#34; target=&#34;_blank&#34;&gt;Autoencoding beyond pixels using a learned similarity metric&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;[9] &lt;a href=&#34;https://lvdmaaten.github.io/tsne/&#34; target=&#34;_blank&#34;&gt;Visualizing Data using t-SNE&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Deep Residual Image Compression</title>
       <link>https://tuananhbui89.github.io/publication/compression/</link>
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
@@ -20,7 +50,7 @@
     </item>
     
     <item>
-      <title>Generative Adversarial AutoEncoder</title>
+      <title>Dist-GAN: Improving GAN by distance constraints</title>
       <link>https://tuananhbui89.github.io/publication/eccv18/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       

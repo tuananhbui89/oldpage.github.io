@@ -351,7 +351,9 @@ Right image: Generated sence by Inverse Posenet with input is the same camera po
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tuananhbui89.github.io/project/usbl/</guid>
-      <description></description>
+      <description>&lt;p&gt;Our project tried to build a mobile system which can localize the location by a scene such as building, street, a corner that captured by a normal camera. The system mainly has two components, the image retrieval component which tries to search pre-build 3D model that contains the scene, and the 2D-3D matching component that tries to matching 2D image features and 3D cloud features. From those matching pairs, the system can estimate the location of the query image. Our system can run on mobile with an accuracy less than 4m without any support from GPS or mobile station and a searching time less than 10s. Our system embed 220k street images which cover around 15km Singapore street.
+This work is under submitted to Transaction on Image Processing (TIP) journal.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
