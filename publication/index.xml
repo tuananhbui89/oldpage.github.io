@@ -11,6 +11,18 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Improving GAN with Neighbors Embedding and Gradient Matching</title>
+      <link>https://tuananhbui89.github.io/publication/aaai19/</link>
+      <pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/publication/aaai19/</guid>
+      <description>
+
+&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Improving GAN using Neighbor Embedding</title>
       <link>https://tuananhbui89.github.io/publication/gan_en/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
@@ -38,15 +50,6 @@
 
 &lt;p&gt;[9] &lt;a href=&#34;https://lvdmaaten.github.io/tsne/&#34; target=&#34;_blank&#34;&gt;Visualizing Data using t-SNE&lt;/a&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Deep Residual Image Compression</title>
-      <link>https://tuananhbui89.github.io/publication/compression/</link>
-      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://tuananhbui89.github.io/publication/compression/</guid>
-      <description></description>
     </item>
     
     <item>
