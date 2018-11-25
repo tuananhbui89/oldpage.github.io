@@ -11,6 +11,18 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Improving GAN with Neighbors Embedding and Gradient Matching</title>
+      <link>https://tuananhbui89.github.io/publication/aaai19/</link>
+      <pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/publication/aaai19/</guid>
+      <description>
+
+&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Improving GAN using Neighbor Embedding</title>
       <link>https://tuananhbui89.github.io/publication/gan_en/</link>
       <pubDate>Sun, 29 Jul 2018 00:00:00 +0000</pubDate>
@@ -288,7 +300,7 @@ Right image: Generated sence by Inverse Posenet with input is the same camera po
     </item>
     
     <item>
-      <title>On-device Scalable Image-based Localization</title>
+      <title>On-device Scalable Image-based Localization via Prioritized Cascade Search and Fast One-Many RANSAC</title>
       <link>https://tuananhbui89.github.io/publication/aaai18/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
