@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Viettel on Tuan-Anh Bui</title>
+    <link>https://tuananhbui89.github.io/tags/viettel/</link>
+    <description>Recent content in Viettel on Tuan-Anh Bui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 07 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tuananhbui89.github.io/tags/viettel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Viettel</title>
+      <link>https://tuananhbui89.github.io/project/viettel/</link>
+      <pubDate>Sun, 07 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/viettel/</guid>
+      <description>Những câu chuyện của tôi khi làm ở Viettel</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>USBL on Tuan-Anh Bui</title>
+    <link>https://tuananhbui89.github.io/tags/usbl/</link>
+    <description>Recent content in USBL on Tuan-Anh Bui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 20 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tuananhbui89.github.io/tags/usbl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>USBL</title>
+      <link>https://tuananhbui89.github.io/project/usbl/</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/usbl/</guid>
+      <description>Urban area Scene Based Localization</description>
+    </item>
+    
+  </channel>
+</rss>

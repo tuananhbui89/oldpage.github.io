@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.32" />
+  <meta name="generator" content="Hugo 0.55.6" />
   <meta name="author" content="Tuan-Anh Bui">
 
   
@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Motivation Currently, the Football TV audiences do not know location of players who not in the current camera frame. Therefore they might has not the full experience as spectators are watching live on the stadium. We can have some simple solutions for this problem, such as using another camera to shoot he entire football field, or using statistical data from the chip attached to the players. However, from the perspective of computer vision engineer, I propose one more solution for the this problem (might be not a good choice but just for fun:), in which I use the GAN model to create a minimap from a camera frame as in the FIFA or PES football video game as figure bellow How to do that In the case of players in the frame, I use the GAN model (Image 2 Image Translation) to learn the transformation from the player&rsquo;s position in the frame to the position of the player in the minimap.">
+  <meta name="description" content="Automatic Create a Minimap from a Football Video Stream">
 
   
   <link rel="alternate" hreflang="en-us" href="https://tuananhbui89.github.io/project/football/">
@@ -75,7 +75,7 @@
   <meta property="og:site_name" content="Tuan-Anh Bui">
   <meta property="og:url" content="https://tuananhbui89.github.io/project/football/">
   <meta property="og:title" content="Football Minimap | Tuan-Anh Bui">
-  <meta property="og:description" content="Motivation Currently, the Football TV audiences do not know location of players who not in the current camera frame. Therefore they might has not the full experience as spectators are watching live on the stadium. We can have some simple solutions for this problem, such as using another camera to shoot he entire football field, or using statistical data from the chip attached to the players. However, from the perspective of computer vision engineer, I propose one more solution for the this problem (might be not a good choice but just for fun:), in which I use the GAN model to create a minimap from a camera frame as in the FIFA or PES football video game as figure bellow How to do that In the case of players in the frame, I use the GAN model (Image 2 Image Translation) to learn the transformation from the player&rsquo;s position in the frame to the position of the player in the minimap.">
+  <meta property="og:description" content="Automatic Create a Minimap from a Football Video Stream">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-01-09T00:00:00&#43;00:00">
@@ -459,6 +459,13 @@
       <script>hljs.initHighlightingOnLoad();</script>
     
 
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
     
     
 

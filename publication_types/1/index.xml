@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Tuan-Anh Bui</title>
+    <link>https://tuananhbui89.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Tuan-Anh Bui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 06 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tuananhbui89.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Improving GAN with Neighbors Embedding and Gradient Matching</title>
+      <link>https://tuananhbui89.github.io/publication/aaai19/</link>
+      <pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/publication/aaai19/</guid>
+      <description> References </description>
+    </item>
+    
+    <item>
+      <title>Dist-GAN: Improving GAN by distance constraints</title>
+      <link>https://tuananhbui89.github.io/publication/eccv18/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/publication/eccv18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-device Scalable Image-based Localization via Prioritized Cascade Search and Fast One-Many RANSAC</title>
+      <link>https://tuananhbui89.github.io/publication/aaai18/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/publication/aaai18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tuan-Anh Bui on Tuan-Anh Bui</title>
@@ -7,8 +6,45 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2019 00:00:00 +0700</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Learning Representation with Causal Invariance</title>
+      <link>https://tuananhbui89.github.io/post/iclr19_talk_causalinvariance/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0700</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/post/iclr19_talk_causalinvariance/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;This is a keynote on the ICLR 2019 talk in the topic: &lt;em&gt;Learning Representation with Causal Invariance&lt;/em&gt; given by &lt;a href=&#34;https://leon.bottou.org/talks/invariances&#34; target=&#34;_blank&#34;&gt;Leon Bottou&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Learning algorithms often capture spurious correlations present in the training data distribution instead of addressing the task of interest (What is spurious correlations? Answer: Such as fake appearance in output, wrong data distribution, wrong correlation between dimensions). Such spurious correlations occur because the data collection process is subject to uncontrolled confounding biases (because of unsupervised setting, with biased objective function). Suppose however that we have access to multiple dataset exemplifying the same concept but whose distributions exhibit different biases. Can we learn something that is common across all these distributions, while ignoring the spurious ways in which they differ. This can be achieved by projecting in important ways from previous work on statistical robustness (e.g. probability graphical model) or adversarial objectives (e.g. GANs). Similar to recent work on invariant feature selection (e.g. Independent Component Analysis), this is about discovering the actual mechanism underlying the data instead of modeling its superficial statistics.&lt;/p&gt;
+
+&lt;p&gt;My full note can be found &lt;a href=&#34;https://docs.google.com/document/d/1VcWSebF31Bj-8pMX-2uTWMbYHdu37clePIFT_PptYCw/edit?usp=sharing&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Robustness approach and Invariant approach! Whereas robustness find the best boundary error (lowest the max error then the other will be ok), invariant find the optimal for all (solution must be optimal for every environment)&lt;/li&gt;
+&lt;li&gt;Invariant approach somehow like overfitting&lt;/li&gt;
+&lt;li&gt;Different environments tell different stories (video different with static image) then different environments should require different behavior/predictors → That why need invariant approach&lt;/li&gt;
+&lt;li&gt;Invariant representation is representation does not change its properties across environments&lt;/li&gt;
+&lt;li&gt;Getting invariant presentation in linear cases&lt;/li&gt;
+&lt;li&gt;Adding invariant regularization into nonlinear constraint&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;open-questions&#34;&gt;Open questions&lt;/h2&gt;
+
+&lt;p&gt;Q: How to compare with meta-learning when learning from one environment/task and benefit to others? &lt;/br&gt;
+A: The author not going to learning but characterising the environment. The goal is getting understand the invariant representation which satisfies the invariant properties (Minimum at every environment, expectation is the reliable case). &lt;/br&gt;
+Q: How to compare with overfitting problem? How to make sure the method can predict/characterise well on the test data?&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Improving GAN with Neighbors Embedding and Gradient Matching</title>
@@ -265,16 +301,16 @@ We propose a Inverse Posenet, the end2end system which can generate (inference) 
 
 &lt;p&gt;Training process
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/9bF5NFmL7ME&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/9bF5NFmL7ME&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Testing process
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/7GMGcwIcXEI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/7GMGcwIcXEI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Left image: Grounth truth sence corresponding with input camera pose (6 DoF vector).
@@ -410,7 +446,7 @@ Right image: Generated sence by Inverse Posenet with input is the same camera po
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tuananhbui89.github.io/project/ssfod/</guid>
-      <description>&lt;p&gt;Drone technology has had a long way to go, Drone now has the ability to be far farther, smaller, more flexible and combined with weapons &lt;a href=&#34;https://www.ted.com/talks/raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;. Accompanying the development of Drone are the concerns about national safety and security when more and more Drone applications are used in the military or terrorist groups take advantage of terrorism &lt;a href=&#34;https://www.nytimes.com/video/world/middleeast/100000005040770/isis-drone-attack-mosul.html&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;. Due to the above reasons, Drone detection technology is being set up as an urgent need and there have been some remarkable results. Radio-detecting drone technologies &lt;a href=&#34;http://www.aaronia.com/products/solutions/Aaronia-Drone-Detection-System/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; have a range of up to 4-6 km, which is capable of operating in bad weather conditions or being blocked by buildings or hills &lt;a href=&#34;https://anti-drone.eu/products/radar-systems/harrier-drone-surveillance-radar.html&#34; target=&#34;_blank&#34;&gt;HARRIER Drone Surveillance Radar&lt;/a&gt;. However, the downside of the system using the radio is that it is susceptible to radio waves and is ineffective in the case of drone using frequency hopping technologies. A technology that is being developed to replace radio technology is the technology that uses a high-resolution camera to detect drone by observing and detecting abnormal movements in the sky, from which detection, classification and localization of Drone. That is the goal of the &lt;a href=&#34;https://tuananhbui89.github.io/files/SSFOD/SSFOD_system.pdf&#34; target=&#34;_blank&#34;&gt;SSFOD&lt;/a&gt; project.&lt;/p&gt;
+      <description>&lt;p&gt;Drone technology has had a long way to go, Drone now has the ability to be far farther, smaller, more flexible and combined with weapons &lt;a href=&#34;https://www.ted.com/talks/raffaello_d_andrea_the_astounding_athletic_power_of_quadcopters&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;. Accompanying the development of Drone are the concerns about national safety and security when more and more Drone applications are used in the military or terrorist groups take advantage of terrorism &lt;a href=&#34;https://www.nytimes.com/video/world/middleeast/100000005040770/isis-drone-attack-mosul.html&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt;. Due to the above reasons, Drone detection technology is being set up as an urgent need and there have been some remarkable results. Radio-detecting drone technologies &lt;a href=&#34;http://www.aaronia.com/products/solutions/Aaronia-Drone-Detection-System/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; have a range of up to 4-6 km, which is capable of operating in bad weather conditions or being blocked by buildings or hills &lt;a href=&#34;https://anti-drone.eu/products/radar-systems/harrier-drone-surveillance-radar.html&#34; target=&#34;_blank&#34;&gt;HARRIER Drone Surveillance Radar&lt;/a&gt;. However, the downside of the system using the radio is that it is susceptible to radio waves and is ineffective in the case of drone using frequency hopping technologies. A technology that is being developed to replace radio technology is the technology that uses a high-resolution camera to detect drone by observing and detecting abnormal movements in the sky, from which detection, classification and localization of Drone. That is the goal of the &lt;a href=&#34;https://tuananhbui89.github.io/files/SSFOD/SSFOD_system.pdf&#34; target=&#34;_blank&#34;&gt; SSFOD&lt;/a&gt; project.&lt;/p&gt;
 </description>
     </item>
     
@@ -428,7 +464,7 @@ This work is under submitted to Transaction on Image Processing (TIP) journal.&l
     <item>
       <title>Example Talk</title>
       <link>https://tuananhbui89.github.io/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0700</pubDate>
       
       <guid>https://tuananhbui89.github.io/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICLR on Tuan-Anh Bui</title>
+    <link>https://tuananhbui89.github.io/tags/iclr/</link>
+    <description>Recent content in ICLR on Tuan-Anh Bui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 21 May 2019 00:00:00 +0700</lastBuildDate>
+    
+	<atom:link href="https://tuananhbui89.github.io/tags/iclr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning Representation with Causal Invariance</title>
+      <link>https://tuananhbui89.github.io/post/iclr19_talk_causalinvariance/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0700</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/post/iclr19_talk_causalinvariance/</guid>
+      <description>Introduction This is a keynote on the ICLR 2019 talk in the topic: Learning Representation with Causal Invariance given by Leon Bottou
+Abstract Learning algorithms often capture spurious correlations present in the training data distribution instead of addressing the task of interest (What is spurious correlations? Answer: Such as fake appearance in output, wrong data distribution, wrong correlation between dimensions). Such spurious correlations occur because the data collection process is subject to uncontrolled confounding biases (because of unsupervised setting, with biased objective function).</description>
+    </item>
+    
+  </channel>
+</rss>

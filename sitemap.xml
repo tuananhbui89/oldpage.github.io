@@ -1,5 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/tags/iclr/</loc>
+      <lastmod>2019-05-21T00:00:00+07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/post/iclr19_talk_causalinvariance/</loc>
+      <lastmod>2019-05-21T00:00:00+07:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/tags/representation_learning/</loc>
+      <lastmod>2019-05-21T00:00:00+07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/tags/</loc>
+      <lastmod>2019-05-21T00:00:00+07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/</loc>
+      <lastmod>2019-05-21T00:00:00+07:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/publication_types/1/</loc>
+      <lastmod>2018-09-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
     
     
@@ -7,6 +65,26 @@
     
       <loc>https://tuananhbui89.github.io/publication/aaai19/</loc>
       <lastmod>2018-09-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/publication_types/</loc>
+      <lastmod>2018-09-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/publication_types/3/</loc>
+      <lastmod>2018-07-29T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -32,6 +110,16 @@
     
     <url>
     
+      <loc>https://tuananhbui89.github.io/tags/gan/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://tuananhbui89.github.io/project/invpose/</loc>
       <lastmod>2018-01-15T00:00:00+00:00</lastmod>
     </url>
@@ -43,6 +131,16 @@
     
       <loc>https://tuananhbui89.github.io/publication/aaai18/</loc>
       <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/tags/deep-learning/</loc>
+      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -68,8 +166,28 @@
     
     <url>
     
+      <loc>https://tuananhbui89.github.io/tags/idea/</loc>
+      <lastmod>2018-01-09T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://tuananhbui89.github.io/project/idea/</loc>
       <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/tags/viettel/</loc>
+      <lastmod>2018-01-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -86,8 +204,28 @@
     
     <url>
     
+      <loc>https://tuananhbui89.github.io/tags/ssfod/</loc>
+      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://tuananhbui89.github.io/project/ssfod/</loc>
       <lastmod>2017-06-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://tuananhbui89.github.io/tags/usbl/</loc>
+      <lastmod>2017-03-20T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -132,7 +270,7 @@
     <url>
     
       <loc>https://tuananhbui89.github.io/talk/example-talk/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+07:00</lastmod>
     </url>
     
   
@@ -141,7 +279,7 @@
     <url>
     
       <loc>https://tuananhbui89.github.io/mylove/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+07:00</lastmod>
     </url>
     
   
@@ -150,7 +288,7 @@
     <url>
     
       <loc>https://tuananhbui89.github.io/post/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+07:00</lastmod>
     </url>
     
   
@@ -159,27 +297,7 @@
     <url>
     
       <loc>https://tuananhbui89.github.io/project/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://tuananhbui89.github.io/publication_types/1/</loc>
-      <lastmod>2018-09-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://tuananhbui89.github.io/publication_types/3/</loc>
-      <lastmod>2018-07-29T00:00:00+00:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2017-01-01T00:00:00+07:00</lastmod>
     </url>
     
   
@@ -188,96 +306,6 @@
     <url>
     
       <loc>https://tuananhbui89.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://tuananhbui89.github.io/tags/deep-learning/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://tuananhbui89.github.io/tags/gan/</loc>
-      <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://tuananhbui89.github.io/tags/idea/</loc>
-      <lastmod>2018-01-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://tuananhbui89.github.io/publication_types/</loc>
-      <lastmod>2018-09-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://tuananhbui89.github.io/tags/ssfod/</loc>
-      <lastmod>2017-06-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://tuananhbui89.github.io/tags/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://tuananhbui89.github.io/</loc>
-      <lastmod>2017-10-15T00:00:00+08:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://tuananhbui89.github.io/tags/usbl/</loc>
-      <lastmod>2017-03-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://tuananhbui89.github.io/tags/viettel/</loc>
-      <lastmod>2018-01-07T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

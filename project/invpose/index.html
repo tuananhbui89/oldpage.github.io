@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.32" />
+  <meta name="generator" content="Hugo 0.55.6" />
   <meta name="author" content="Tuan-Anh Bui">
 
   
@@ -17,7 +17,7 @@
       
     
   
-  <meta name="description" content="Motivation Posenet [1] has proved the success of Deep Convolutional Neural Network in field of camera relocalization to predict camera pose (position and orientation) from a image. This work has demonstrated that convnets can be used to solve complicated out of image plane regression problems. However, in the inverse problem, such that regression (inference) a visual sence from a pose where we desire to view with specific angle still a hard problem (even with human).">
+  <meta name="description" content="A Generative Adversarial Model for inferring scence from 6 DoF">
 
   
   <link rel="alternate" hreflang="en-us" href="https://tuananhbui89.github.io/project/invpose/">
@@ -75,7 +75,7 @@
   <meta property="og:site_name" content="Tuan-Anh Bui">
   <meta property="og:url" content="https://tuananhbui89.github.io/project/invpose/">
   <meta property="og:title" content="Inverse Posenet | Tuan-Anh Bui">
-  <meta property="og:description" content="Motivation Posenet [1] has proved the success of Deep Convolutional Neural Network in field of camera relocalization to predict camera pose (position and orientation) from a image. This work has demonstrated that convnets can be used to solve complicated out of image plane regression problems. However, in the inverse problem, such that regression (inference) a visual sence from a pose where we desire to view with specific angle still a hard problem (even with human).">
+  <meta property="og:description" content="A Generative Adversarial Model for inferring scence from 6 DoF">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-01-15T00:00:00&#43;00:00">
@@ -465,16 +465,16 @@ We propose a Inverse Posenet, the end2end system which can generate (inference) 
 
 <p>Training process
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/9bF5NFmL7ME" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
- </div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/9bF5NFmL7ME" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 </p>
 
 <p>Testing process
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/7GMGcwIcXEI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
- </div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/7GMGcwIcXEI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 </p>
 
 <p>Left image: Grounth truth sence corresponding with input camera pose (6 DoF vector).
@@ -669,6 +669,13 @@ Right image: Generated sence by Inverse Posenet with input is the same camera po
       <script>hljs.initHighlightingOnLoad();</script>
     
 
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
     
     
 

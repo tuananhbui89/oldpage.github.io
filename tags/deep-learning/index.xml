@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deep-learning on Tuan-Anh Bui</title>
+    <link>https://tuananhbui89.github.io/tags/deep-learning/</link>
+    <description>Recent content in deep-learning on Tuan-Anh Bui</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tuananhbui89.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Inverse Posenet</title>
+      <link>https://tuananhbui89.github.io/project/invpose/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/invpose/</guid>
+      <description>A Generative Adversarial Model for inferring scence from 6 DoF</description>
+    </item>
+    
+    <item>
+      <title>Football Minimap</title>
+      <link>https://tuananhbui89.github.io/project/football/</link>
+      <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/football/</guid>
+      <description>Automatic Create a Minimap from a Football Video Stream</description>
+    </item>
+    
+    <item>
+      <title>SSFOD</title>
+      <link>https://tuananhbui89.github.io/project/ssfod/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tuananhbui89.github.io/project/ssfod/</guid>
+      <description>Sky Surveillance - Flying Object Detection</description>
+    </item>
+    
+  </channel>
+</rss>
