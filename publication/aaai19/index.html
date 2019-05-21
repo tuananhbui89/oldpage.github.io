@@ -75,7 +75,7 @@
   <meta property="og:site_name" content="Tuan-Anh Bui">
   <meta property="og:url" content="https://tuananhbui89.github.io/publication/aaai19/">
   <meta property="og:title" content="Improving GAN with Neighbors Embedding and Gradient Matching | Tuan-Anh Bui">
-  <meta property="og:description" content="We propose two new techniques for training Generative Ad- versarial Networks (GANs). Our objectives are to alleviate mode collapse in GAN and improve the quality of the gen- erated samples. First, we consider the probabilistic relative distance (PRDist) used in t-distribution stochastic neighbors embedding (tSNE), a well-known dimensionality reduction method. PRDist was used in tSNE to enforce the consistency between the manifold structures of high-dimensional sam- ples and resulting reduced-dimensional latent samples. In our work, we apply PRDist in reverse direction for the generator in GAN: to enforce consistency between manifold structures of latent samples and the generated high-dimensional sam- ples. We found that this could effectively reduce mode col- lapse and increase the diversity of generated samples. Second, we propose a new technique to align the distributions of the generated samples and the real samples. As it is challenging to work with high-dimensional sample distributions, we pro- pose to align these distributions through the scalar discrim- inator scores. We constrain the difference between the dis- criminator scores of the real samples and generated ones. We further constrain the difference between the gradients of these discriminator scores. We derive these constraints from Tay- lor approximations of the discriminator function. We demon- strate that using this technique the generated samples resem- ble the real ones. This technique also improves convergence speed. Extensive evaluations on 1D/2D synthetic, CIFAR-10 and STL-10 datasets demonstrate the state-of-the-art perfor- mance of our model."><meta property="og:image" content="https://tuananhbui89.github.io/img/AAAI19/Neighbor_Embedding.png">
+  <meta property="og:description" content="We propose two new techniques for training Generative Ad- versarial Networks (GANs). Our objectives are to alleviate mode collapse in GAN and improve the quality of the gen- erated samples. First, we consider the probabilistic relative distance (PRDist) used in t-distribution stochastic neighbors embedding (tSNE), a well-known dimensionality reduction method. PRDist was used in tSNE to enforce the consistency between the manifold structures of high-dimensional sam- ples and resulting reduced-dimensional latent samples. In our work, we apply PRDist in reverse direction for the generator in GAN: to enforce consistency between manifold structures of latent samples and the generated high-dimensional sam- ples. We found that this could effectively reduce mode col- lapse and increase the diversity of generated samples. Second, we propose a new technique to align the distributions of the generated samples and the real samples. As it is challenging to work with high-dimensional sample distributions, we pro- pose to align these distributions through the scalar discrim- inator scores. We constrain the difference between the dis- criminator scores of the real samples and generated ones. We further constrain the difference between the gradients of these discriminator scores. We derive these constraints from Tay- lor approximations of the discriminator function. We demon- strate that using this technique the generated samples resem- ble the real ones. This technique also improves convergence speed. Extensive evaluations on 1D/2D synthetic, CIFAR-10 and STL-10 datasets demonstrate the state-of-the-art perfor- mance of our model.">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-09-06T00:00:00&#43;00:00">
@@ -211,11 +211,6 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
-<div class="article-header">
-  <img src="/img/AAAI19/Neighbor_Embedding.png" class="article-banner" itemprop="image">
-  <span class="article-header-caption">Neighbor-Embedding Constraint</span>
-</div>
-
 
 
   <div class="container pub-title">
@@ -272,6 +267,8 @@
 
   <div class="article-container">
 
+    
+    <img src="/img/AAAI19/Neighbor_Embedding.png" class="pub-banner" itemprop="image">
     
 
     
